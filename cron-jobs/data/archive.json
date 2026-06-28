@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "status": "paid",
+        "description": "laptop",
+        "date": "2026-01-16T10:32:40.282Z"
+    },
+    {
+        "id": 2,
+        "status": "paid",
+        "description": "mobile",
+        "date": "2026-02-16T10:32:40.282Z"
+    },
+    {
+        "id": 3,
+        "status": "paid",
+        "description": "tablet",
+        "date": "2026-03-16T10:32:40.282Z"
+    },
+    {
+        "id": 4,
+        "status": "paid",
+        "description": "keyboard",
+        "date": "2026-04-16T10:32:40.282Z"
+    }
+]
