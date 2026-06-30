@@ -1,0 +1,17 @@
+{"name":"Amit","lastName":"Sharma","salary":1200000,"roll":101,"isDEEDU":true,"role":"SD"}
+{"name":"Neha","lastName":"Iyer","salary":1450000,"roll":102,"isDEEDU":false,"role":"SD Engineer"}
+{"name":"Rahul","lastName":"Khan","salary":1800000,"roll":103,"isDEEDU":true,"role":"SD Manager"}
+{"name":"Pooja","lastName":"Verma","salary":1100000,"roll":104,"isDEEDU":false,"role":"SD Engineer"}
+{"name":"Arjun","lastName":"Singh","salary":2000000,"roll":105,"isDEEDU":true,"role":"SD Manager"}
+{"name":"Sana","lastName":"Ali","salary":950000,"roll":106,"isDEEDU":false,"role":"SD"}
+{"name":"Vikram","lastName":"Patel","salary":1600000,"roll":107,"isDEEDU":true,"role":"SD Engineer"}
+{"name":"Kavya","lastName":"Nair","salary":1750000,"roll":108,"isDEEDU":false,"role":"SD Manager"}
+{"name":"Imran","lastName":"Hussain","salary":1300000,"roll":109,"isDEEDU":true,"role":"SD"}
+
+
+
+
+
+
+
+{"name":"Ananya","lastName":"Reddy","salary":1550000,"roll":110,"isDEEDU":false,"role":"SD Engineer"}
