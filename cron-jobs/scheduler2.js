@@ -1,9 +1,9 @@
 const nodeCron = require('node-cron');
 const path = require('path');
-const fs = require('fs');
+const fs = require('fs').promises;
 const invoices = require('./data/invoices.json');
 
-const archiveInvoicesTask = () => {
+const archiveInvoicesTask = async() => {
     console.log('Running archival task :' + new Date());
     try {
         const result = invoices.reduce((acc,invoice)=>{
@@ -17,22 +17,19 @@ const archiveInvoicesTask = () => {
         },{paidInvoice:[],pendingInvoice:[]})
 
         const {paidInvoice,pendingInvoice} = result;
-
-        fs.writeFileSync(
+       await fs.writeFile(
             path.join(__dirname,'./','data','archive.json'),
             JSON.stringify(paidInvoice),
             'utf-8'
         )
-
         console.log('paidinvoices',paidInvoice)
 
-        fs.writeFileSync(
+       await fs.writeFile(
             path.join(__dirname,'./','data','invoices.json'),
             JSON.stringify(pendingInvoice),
             'utf-8'
         )
-
-          console.log('pending invoices',pendingInvoice)
+        console.log('pending invoices',pendingInvoice)
     } catch (error) {
         console.log(error)
     }
